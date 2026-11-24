@@ -257,7 +257,15 @@ def cmd_check(args) -> int:
     return 0
 
 
+def utf8_stdio() -> None:
+    """In thông báo tiếng Việt được cả trên console Windows (cp1252) khi chạy file này trực tiếp."""
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8")
+
+
 def main(argv=None) -> int:
+    utf8_stdio()
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
 

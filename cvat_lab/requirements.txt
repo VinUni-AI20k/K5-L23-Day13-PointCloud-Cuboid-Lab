@@ -1,2 +1,2 @@
-cvat-sdk>=2.20
+cvat-sdk>=2.82,<2.84
 Pillow>=10

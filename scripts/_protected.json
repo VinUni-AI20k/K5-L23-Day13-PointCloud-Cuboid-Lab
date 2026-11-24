@@ -1,6 +1,6 @@
 {
  "cvat_lab/vf_common.py": "850545ef831e85384fa39817f4202f78eb835cd1",
- "cvat_lab/vf_cvat.py": "04f5fec7f7052ddea54b333090dc15413e8518d7",
+ "cvat_lab/vf_cvat.py": "1da932ca0982ebebb1d4e885a7a7fa5ea8ca8d05",
  "cvat_lab/vf_qa.py": "cb717e5c0d992f44b39941dbdb81da1888b14091",
  "scripts/lab.py": "c73bdc7433da4859139e0a79d50862b32efe54b9",
  "scripts/check_submission.py": "0aab655485280920b957b242778e989f25154a0c"
